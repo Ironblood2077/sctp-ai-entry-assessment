@@ -14,7 +14,7 @@ def formatName(firstName, lastName):
         return "Invalid name"
 
     return lastName.capitalize() + ", " + firstName.capitalize()
-    pass
+
 
 
 # Task 2:
@@ -32,7 +32,7 @@ def formatInitials(firstName, lastName):
         return "Invalid name"
 
     return firstName[0].upper() + "." + lastName[0].upper() + "."
-    pass
+
 
 
 # Task 3:
